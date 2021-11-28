@@ -49,7 +49,7 @@ public class Adminmain {
             }
             
             // Show credentials if admin do not want to exit
-            if(option != 5)
+            if(option < 5)
                 adminsrc.showCredentials();
 		}while(option != 5);
 	    
