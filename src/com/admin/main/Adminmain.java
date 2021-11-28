@@ -44,6 +44,8 @@ public class Adminmain {
             case 5:
                  System.out.println("Exiting IT admin services");
                 break;            
+	    default:
+            	System.out.println("Wrong choice");
             }
             
             // Show credentials if admin do not want to exit
